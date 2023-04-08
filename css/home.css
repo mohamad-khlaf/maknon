@@ -54,20 +54,22 @@ a {
 .cta {
     width: fit-content;
     margin: auto;
-    padding: 10px 20px;
+    padding: 6px 12px;
     border-radius: 25px 2px;
     background: blue;
     color: white;
     display: block;
     text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
 }
 .cta .cta_icon {
-    width: 20px;
+    width: 10px;
     display: inline-block;
 }
 @media (max-width: 576px) {
     .cta {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 .main-title-dash {
@@ -76,6 +78,7 @@ a {
     padding: 0px 2px;
     white-space: normal;
     display: inline-block;
+    box-shadow: 2px 3px 8px 8px #ddd;
 }
 .logo img {
     width: 80px;
@@ -305,7 +308,7 @@ a {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -100%;
+    left: 00%;
     color: rgb(183, 93, 93);
     transition: .3s;
     font-size: 100px;
@@ -317,7 +320,7 @@ a {
 .carousel-control-next-icon::after {
     content: "\f105";
     left: auto;
-    right: -100%;
+    right: 00%;
 }
 
 
