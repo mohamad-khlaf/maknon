@@ -1,0 +1,16 @@
+.carousel-caption {
+    // rest bootstrap property 
+    position: static;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    padding-top:    0rem;
+    padding-bottom: 0rem;
+    color: inherit;
+    text-align: inherit;
+}
+.product-section .carousel-control-prev-icon,
+.product-section .carousel-control-next-icon  {
+    width: 4rem;
+    height: 4rem;
+}
